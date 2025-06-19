@@ -84,7 +84,7 @@ sudo apt install i2c-tools
 * Disable services you don’t use.
 
 
-Perfect — if you're planning to use your **Raspberry Pi 5** as an embedded system controller (relays, flow meters, sensors, etc.), here’s a focused setup tailored specifically for **embedded systems development**, especially with **Python, GPIO, UART, I2C, SPI**, and basic automation tools.
+If you're planning to use your **Raspberry Pi 5** as an embedded system controller (relays, flow meters, sensors, etc.), here’s a focused setup tailored specifically for **embedded systems development**, especially with **Python, GPIO, UART, I2C, SPI**, and basic automation tools.
 
 ---
 
