@@ -56,12 +56,9 @@ Enable:
 
 | Tool              | Install Command                    | Purpose                  |
 | ----------------- | ---------------------------------- | ------------------------ |
-| `htop`            | `sudo apt install htop`            | System monitor           |
-| `vim` or `nano`   | `sudo apt install vim`             | Text editors             |
 | `curl` / `wget`   | `sudo apt install curl wget`       | Downloading tools        |
 | `build-essential` | `sudo apt install build-essential` | Compiler and build tools |
 | `python3-pip`     | `sudo apt install python3-pip`     | Python package manager   |
-| `tmux`            | `sudo apt install tmux`            | Terminal multiplexer     |
 
 ---
 
@@ -73,37 +70,10 @@ Enable:
 pip3 install RPi.GPIO gpiozero smbus2 adafruit-circuitpython-dht
 ```
 
-If using sensors/displays:
-
-```bash
-pip3 install adafruit-blinka adafruit-circuitpython-ssd1306
-```
-
 #### I2C Tools:
 
 ```bash
 sudo apt install i2c-tools
-```
-
----
-
-### 💡 **Optional but Helpful Software**
-
-| Software           | Install Command or Source                                    | Use Case                     |                               |
-| ------------------ | ------------------------------------------------------------ | ---------------------------- | ----------------------------- |
-| `Jupyter Notebook` | `pip3 install notebook`                                      | Data analysis, quick scripts |                               |
-| `Thonny`           | Comes pre-installed (or `sudo apt install thonny`)           | Python IDE                   |                               |
-| `Node-RED`         | `bash <(curl -sL https://nodered.org/install.sh)`            | Visual automation tool       |                               |
-| `Docker`           | \`curl -sSL [https://get.docker.com](https://get.docker.com) | sh\`                         | Containerized apps & services |
-
----
-
-### 📁 **Optional File Structure**
-
-To stay organized, you can create a folder structure like:
-
-```bash
-mkdir -p ~/Projects/{iot,automation,scripts,electronics,logs}
 ```
 
 ---
