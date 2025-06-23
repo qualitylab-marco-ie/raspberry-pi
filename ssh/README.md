@@ -18,10 +18,9 @@
 
 ### **Step 2: Find Raspberry Pi's IP Address**
 
-From your Windows PC:
-
-* Use a network scanner (e.g., [Advanced IP Scanner](https://www.advanced-ip-scanner.com/))
-* Or, check your router’s connected devices list.
+   ```bash
+   $ ip addr show wlan0
+   ```
 
 You’ll need the Pi's IP (e.g., `192.168.0.123`).
 
