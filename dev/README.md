@@ -8,9 +8,10 @@ Angular depends on **Node.js** and **npm** for managing packages. You'll need to
 
   ```bash
   sudo apt update
-  sudo apt install -y nodejs
-  sudo apt install -y npm
+  sudo apt upgrade -y
   ```
+[Install NodeJs and NPM](https://nodejs.org/en/download)
+
 
   You can also check the version:
 
